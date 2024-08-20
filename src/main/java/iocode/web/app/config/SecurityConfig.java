@@ -15,7 +15,7 @@ import org.springframework.security.web.SecurityFilterChain;
 import lombok.RequiredArgsConstructor;
 
 @Configuration
-@RequiredArgsConstructor
+//@RequiredArgsConstructor
 @EnableWebSecurity
 public class SecurityConfig {
   private final AuthenticationProvider authenticationProvider;
